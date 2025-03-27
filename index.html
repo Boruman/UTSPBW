@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="style.css">
+    <title>UTS Pemrograman Berbasi Web</title>
+</head>
+<body>
+    <!-- HEADER SECTION -->
+    <header class="header">
+        <a href="#home" class="logo">Portofolio</a>
+
+        <i class='bx bx-menu' id="menu-icon"></i>
+
+        <nav class="navbar">
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#contact">Contact</a>
+            <a href="#services">Pemrograman Web</a>
+        </nav>
+    </header>
+
+    <!-- Home Section -->
+
+    <section id="home" class="home">
+        <div class="home-content">
+            <h1>Hello, Im</h1>
+            <h3><span class="multiple-text"></span></h3>
+            <p>Saya seorang mahasiswa jurusan Informatika di Universitas Singaperbangsa Karawang. 
+                Saya memiliki minat dalam pengembangan web dan ingin menjadi seorang Web Developer.</p>
+            <a href="#about" class="btn">Selengkapnya</a>
+        </div>
+        <div class="home-img">
+            <img src="assets/photo.png" alt="">
+        </div>
+        
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        
+        <h2 class="simmer">About Me <span></span> </h2>
+        <div class="about-content">
+            <h2 class="heading">Pendidikan <span></span> </h2>
+            <p>- SMAN 2 Tambun Selatan<hr>
+               - Universitas Singaperbangsa Karawang</p>
+            <h2 class="heading">Pengalaman Organisasi <span></span> </h2>
+            <p>- BEM Fasilkom Unsika (2025-2026)</p>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services">
+        <h2 class="heading">Study Program <span>History</span> </h2>
+
+        <div class="services-container">
+            <div class="services-box">
+                <h3>HTML</h3>
+                <<img src="assets/HTML.png" alt="">
+            </div>
+
+            <div class="services-box">
+                <h3>CSS</h3>
+                <<img src="assets/css.png" alt="">
+            </div>
+
+            <div class="services-box">
+                <h3>php</h3>
+                <<img src="assets/php.png" alt="">
+            </div>
+
+            <div class="services-box">
+                <h3>JS</h3>
+                <<img src="assets/js.png" alt="">
+            </div>
+
+            <div class="services-box">
+                <h3>Mengontrol Alur Program</h3>
+                <<img src="assets/kontrol.png" alt="">
+            </div>
+
+            <div class="services-box">
+                <h3>perulangan dan array</h3>
+                <<img src="assets/looparray.png" alt="">
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Contact Section -->
+
+    <section id="contact" class="contact">
+        <h2 class="heading">Contact <span>Me</span></h2>
+
+        <form action="process.php" method="POST">
+            <div class="input-box">
+                <input type="text" name="name" placeholder="Full Name" required>
+                <input type="email" name="email" placeholder="Email Address" required>
+            </div>
+            <div class="input-box">
+                <input type="text" name="phone" placeholder="Phone Number" required>
+                <input type="text" name="subject" placeholder="Email Subject">
+            </div>
+            <textarea name="message" cols="30" rows="10" placeholder="Your Message" required></textarea>
+            <input type="submit" value="Send Message" class="btn">
+        </form>
+        
+    </section>
+
+    <!-- Footer Section -->
+
+    <footer class="footer">
+        <div class="social">
+            <a href="#"><i class='bx bxl-linkedin'></i></a>
+                <a href="#"><i class='bx bxl-github' ></i></a>
+                <a href="#"><i class='bx bxl-facebook'></i></a>
+                <a href="#"><i class='bx bxl-instagram' ></i></a>
+        </div>
+
+        <p class="copyright">
+            © Syafiq Afifful Azmi - All Rights Reserved
+        </p>
+    </footer>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
